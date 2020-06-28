@@ -1,0 +1,24 @@
+{
+  "name": "instascrapy",
+  "version": "1.0.0",
+  "description": "Instagram post scrapper with puppeteer",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^4.0.1",
+    "puppeteer-extra": "^3.1.9",
+    "puppeteer-extra-plugin-repl": "^2.2.4",
+    "puppeteer-extra-plugin-stealth": "^2.4.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram",
+    "post",
+    "scrapping"
+  ],
+  "author": "Mayur Rawte",
+  "license": "MIT",
+  "repository": "mayurrawte/instascrapy"
+}
