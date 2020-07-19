@@ -33,10 +33,9 @@ module.exports = {
   */
   scrapInsta: async (url, postType, username = null, password = null) => {
     return new Promise(async (resolve) => {
-      puppeteer.launch({ userDataDir: "./user_data", headless: false })
+      puppeteer.launch({ args: ['--no-sandbox', '--disable-setuid-sandbox', '--user-data-dir=./user_data'] })
         .then(async browser => {
           let itemUrl;
-
 
           const page = await browser.newPage()
           // If the cookies file exists, read the cookies.
