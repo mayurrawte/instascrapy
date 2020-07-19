@@ -1,6 +1,6 @@
 {
   "name": "instascrapy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Instagram post scrapper with puppeteer",
   "main": "index.js",
   "dependencies": {
